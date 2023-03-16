@@ -1,11 +1,15 @@
 ## create an array list of computer names
-  
+
+  ### create an array list of computer names
       [System.Collections.ArrayList]$computers="LON-SRV1","LON-SRV2","LON-DC1"
   
+  ### add a computer
       $computers.Add("LON-DC2")
   
+  ### remove a computer
       $computers.Remove("LON-SRV2")
       
+  ### review the item   
       $computers
 
 
