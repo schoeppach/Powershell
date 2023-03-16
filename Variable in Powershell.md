@@ -23,3 +23,15 @@
       
   ### review the email address for Libby
       $mailList.Libby
+      
+  ### update a email
+      $mailList.Libby="Libby.Hayward@contoso.com"
+      
+  ### add a new name and email address
+      $mailList.Add("Stela","Stela.Sahiti")
+      
+  ### remove a name    
+      $mailList.Remove("Frank")
+      
+  ### review
+      $mailList
