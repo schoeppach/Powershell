@@ -5,3 +5,5 @@
       $computers.Add("LON-DC2")
   
       $computers.Remove("LON-SRV2")
+      
+      $computers
